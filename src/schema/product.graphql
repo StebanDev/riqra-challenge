@@ -1,0 +1,11 @@
+type Product {
+  _id: ID
+  name: String
+  price: Float
+  stock: Int
+}
+
+type Query {
+  "Devuelve los productos"
+  getProducts: [Product]
+}
